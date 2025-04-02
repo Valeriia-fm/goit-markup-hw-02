@@ -43,7 +43,10 @@ a {
 
 /*----------HEADER---------*/
 
-/*------------HERO------------*/
+.hero {
+  background-color: #2e2f42;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -52,6 +55,41 @@ a {
   text-align: center;
   color: #fff;
 }
+
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+/*------------HERO------------*/
+
+/*------------BENEFITS---------*/
+
+.benefits {
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+
+.benefits-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*------------BENEFITS---------*/
 
 /*-------FOOTER----------*/
 .footer-logo {
