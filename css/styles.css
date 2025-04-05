@@ -90,7 +90,8 @@ button {
   font-size: 16px;
   color: #fff;
 }
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -118,6 +119,7 @@ button {
 
 /*-----------TEAM--------------*/
 .team-caption {
+  background-color: #F4F4FD
   text-transform: capitalize
   font-weight: 700;
   font-size: 36px;
@@ -148,7 +150,7 @@ button {
 }
 
 .team {
-  background-color: #FFFFFF;
+  background-color: #F4F4FD;
 }
 /*----------------TEAM------------*/
 
