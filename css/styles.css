@@ -43,9 +43,8 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;;
+  color: #4d5ae5;
 }
-
 
 .header-menu-list {
   font-weight: 500;
@@ -59,8 +58,8 @@ button {
   font-style: normal;
 }
 
-.address:hover,
-.address:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -70,16 +69,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.header-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
 }
 
 /*----------HEADER---------*/
@@ -135,8 +124,8 @@ button {
 
 /*-----------TEAM--------------*/
 .team-caption {
-  background-color: #F4F4FD
-  text-transform: capitalize
+  background-color: #f4f4fd;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -144,10 +133,11 @@ button {
   text-align: center;
   color: #2e2f42;
 }
-.team-pic {
-  width: 264px;
-  height: 260px;
+
+.team-list {
+  background-color: #ffffff;
 }
+
 .name {
   font-weight: 500;
   font-size: 20px;
@@ -166,22 +156,19 @@ button {
 }
 
 .team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 /*----------------TEAM------------*/
 
 /*-----------OUR PORTFOLIO--------*/
 .portfolio {
-  text-transform: capitalize
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
-.portfolio-ill {
-  width: 360;
 }
 
 .potf-subtitle {
